@@ -1,14 +1,20 @@
-# Timer Cli
+# Timer CMD
 A dependency free cli based countdown timer
+
+## Install
+
+```
+npm install -g timer-cmd
+```
 
 ## Usage
 ```
 Please specify time
 
 format:
-	timer-cli XXhXXmXXs
-	timer-cli XXmXXs
-	timer-cli XXs
+	timer-cmd XXhXXmXXs
+	timer-cmd XXmXXs
+	timer-cmd XXs
 Example:
-	timer-cli 1h30m20s
+	timer-cmd 1h30m20s
 ```

@@ -1,4 +1,5 @@
-const scriptName = "timer-cli";
+#!/usr/bin/env node
+const scriptName = "timer-cmd";
 const usageText = `Please specify time
 
 format:

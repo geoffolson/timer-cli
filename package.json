@@ -1,11 +1,15 @@
 {
-  "name": "timer-cli",
-  "version": "1.0.0",
+  "name": "timer-cmd",
+  "version": "1.0.2",
   "description": "A dependency free cli based countdown timer",
-  "main": "timer-cli.js",
+  "main": "timer-cmd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "timer-cmd": "timer-cmd.js"
+  },
   "author": "Geoffrey Olson Jr.",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {}
 }
