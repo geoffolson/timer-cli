@@ -6,7 +6,7 @@ format:
 	${scriptName} XXmXXs
 	${scriptName} XXs
 Example:
-	cli-timer 1h30m20s`;
+	${scriptName} 1h30m20s`;
 function countdownTimer(durationInSeconds) {
   let timer = durationInSeconds;
 
