@@ -1,6 +1,6 @@
 {
   "name": "timer-cmd",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A dependency free cli based countdown timer",
   "main": "timer-cmd.js",
   "scripts": {
@@ -9,6 +9,12 @@
   "bin": {
     "timer-cmd": "timer-cmd.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geoffolson/timer-cli"
+  },
+  "homepage": "https://github.com/geoffolson/timer-cli",
+  "keywords": ["timer", "countdown", "cli", "terminal"],
   "author": "Geoffrey Olson Jr.",
   "license": "MIT",
   "dependencies": {}
