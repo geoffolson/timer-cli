@@ -2,12 +2,14 @@
 const scriptName = "timer-cmd";
 const usageText = `Please specify time
 
-format:
+Format:
 	${scriptName} XXhXXmXXs
 	${scriptName} XXmXXs
 	${scriptName} XXs
-Example:
-	${scriptName} 1h30m20s`;
+Examples:
+	${scriptName} 1h30m20s
+	${scriptName} 3m20s
+	${scriptName} 5m`;
 function countdownTimer(durationInSeconds) {
   let timer = durationInSeconds;
 
