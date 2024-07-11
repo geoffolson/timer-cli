@@ -1,6 +1,6 @@
 {
   "name": "timer-cmd",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A dependency free cli based countdown timer",
   "main": "timer-cmd.js",
   "scripts": {

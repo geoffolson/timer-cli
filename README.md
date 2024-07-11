@@ -11,10 +11,12 @@ npm install -g timer-cmd
 ```
 Please specify time
 
-format:
+Format:
 	timer-cmd XXhXXmXXs
 	timer-cmd XXmXXs
 	timer-cmd XXs
-Example:
+Examples:
 	timer-cmd 1h30m20s
+	timer-cmd 3m20s
+	timer-cmd 5m`;
 ```
