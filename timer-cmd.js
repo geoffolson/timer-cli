@@ -1,15 +1,15 @@
 #!/usr/bin/env node
-const scriptName = "timer-cmd";
+const cmd = "timer-cmd";
 const usageText = `Please specify time
 
 Format:
-	${scriptName} XXhXXmXXs
-	${scriptName} XXmXXs
-	${scriptName} XXs
+	${cmd} XXhXXmXXs
+	${cmd} XXmXXs
+	${cmd} XXs
 Examples:
-	${scriptName} 1h30m20s
-	${scriptName} 3m20s
-	${scriptName} 5m`;
+	${cmd} 1h30m20s
+	${cmd} 3m20s
+	${cmd} 5m`;
 function countdownTimer(durationInSeconds) {
   let timer = durationInSeconds;
 
